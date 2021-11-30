@@ -13,13 +13,13 @@ function myFunction() {
 
 function mouseOver(phrase) {
   if (phrase.innerText=="einajade-forest") {
-    phrase.innerText ="About";
-    phrase.href ="about.html";
+    phrase.innerText ="Contact Me";
+    phrase.href ="mailto:einajade-forest@@antispamdomain.com";
   }
-  if (phrase.innerText=="Novice Developer") {
+  /* if (phrase.innerText=="Novice Developer") {
     phrase.innerText ="Projects";
     phrase.href ="projects.html";
-  }
+  } */
 }
 
 function mouseOut(phrase) {
@@ -27,8 +27,8 @@ function mouseOut(phrase) {
     phrase.innerText ="einajade-forest";
     phrase.href ="#";
   }
-  if (phrase.innerText=="Projects") {
+  /* if (phrase.innerText=="Projects") {
     phrase.innerText ="Novice Developer";
     phrase.href ="#";
-  }
+  } */
 }

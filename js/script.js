@@ -20,10 +20,6 @@ function mouseOver(phrase) {
     phrase.innerText ="Projects";
     phrase.href ="project.html";
   }
-  if (phrase.innerText=="Seeking Opportunities") {
-    phrase.innerText ="Contact";
-    phrase.href ="contact.html";
-  }
 }
 
 function mouseOut(phrase) {
@@ -35,24 +31,4 @@ function mouseOut(phrase) {
     phrase.innerText ="Novice Developer";
     phrase.href ="#";
   }
-  if (phrase.innerText=="Contact") {
-    phrase.innerText ="Seeking Opportunities";
-    phrase.href ="#";
-  }
 }
-
-let adjectives = new Array();
-
-adjectives[0] = "Forever curious";
-adjectives[1] = "Analytical";
-adjectives[2] = "Focused";
-adjectives[3] = "Dependable";
-adjectives[4] = "Realistic";
-
-function getAdjective(){
-  setInterval (function(){
-    let index = Math.floor(Math.random()*adjectives.length);
-    document.getElementById("adjectives").innerText = adjectives[index];
-  }, 4000);
-}
-getAdjective()

@@ -110,7 +110,7 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  padding: 0% 15% 0% 15%;
+  padding: 5% 10% 5% 10%;
   margin: 0;
 }
 
@@ -122,13 +122,13 @@ a {
 
 .card {
   display: grid;
-  background: #fff;
+  background: #b9e5d5;
   border-radius: 25px;
   margin: 10px;
   padding: 5px;
   width: 200px;
   height: 250px;
-  color: #494949;
+  color: #3D3D3D;
 }
 
 .card > h3 {

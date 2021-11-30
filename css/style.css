@@ -67,7 +67,6 @@ a {
   /* Control the left side */
   .left {
     left: 0;
-    /* background-color: #fff; */
     height: 100%;
     width: 25%;
     position: fixed;
@@ -80,7 +79,6 @@ a {
   /* Control the right side */
   .right {
     right: 0;
-    /* background-color: #fff; */
     height: 100%;
     width: 74%;
     position: fixed;
@@ -90,7 +88,6 @@ a {
     padding-top: 20px;
   }
   
-  /* If you want the content centered horizontally and vertically */
   .centered {
     position: absolute;
     top: 50%;
@@ -99,41 +96,47 @@ a {
     text-align: center;
     width: 100%;
   }
-  
-  /* Style the image inside the centered container, if needed */
-/*   .centered img {
-    width: 150px;
-    border-radius: 50%;
-  } */
 
-  .forest {
-    background-image: url("../images/bgrd_forest_green.png");
-    background-repeat: repeat-y;
-    background-size: 25vw;
+.forest {
+  background-image: url("../images/bgrd_forest_green.png");
+  background-repeat: repeat-y;
+  background-size: 25vw;
 }
 
 .themed-font {
   color: #326056;
 }
 
-.button {
-  background-color: #2ca089;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+.cards-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0;
 }
 
-.clickable {
-  background-color:#2ca089;
-  margin: 3px;
-  padding: 5px;
+.cards-container > a > div {
+  background: #fff;
+  border-radius: 25px;
+  margin: 20px;
+  width: 200px;
+  height: 250px;
+}
+
+.cards-container > a > div > h3 {
+  padding-top: 40px;
+  color: #494949;
+}
+
+.description{
+  padding: 10px 5px 10px 5px;
+}
+
+.tags {
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  bottom: 15%;
+  width: 180px;
+  padding: 10px;
   text-align: center;
-  font-weight: bold;
-  width: 300px;
+  font-size: small;
 }

@@ -23,7 +23,7 @@ function mouseOver(phrase) {
 }
 
 function mouseOut(phrase) {
-  if (phrase.innerText=="About") {
+  if (phrase.innerText=="Contact Me") {
     phrase.innerText ="einajade-forest";
     phrase.href ="#";
   }

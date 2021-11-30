@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, sans-serif;
+}
+
+a {
+  color: #494949;
+  text-decoration: none;
+}
+
+.home {
+  padding: 5px;
+  font-size: 45px; 
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  border-bottom: thick solid rgb(163, 163, 163);
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #494949;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: #494949;
+}
+
+#navbar a.active {
+  background-color: #2ca089;
+  color: white;
+}
+
+.main {
+  margin-top: 48px;
+  width: 100%;
+  display: block;
+  position: fixed;
+  height: auto;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .main {
+  padding-top: 60px;
+}
+
+  /* Control the left side */
+  .left {
+    left: 0;
+    /* background-color: #fff; */
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    /* top: 0; */
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  /* Control the right side */
+  .right {
+    right: 0;
+    /* background-color: #fff; */
+    height: 100%;
+    width: 74%;
+    position: fixed;
+    z-index: 1;
+    /* top: 0; */
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+/*   .centered img {
+    width: 150px;
+    border-radius: 50%;
+  } */
+
+  .forest {
+    background-image: url("../images/bgrd_forest_green.png");
+    background-repeat: repeat-y;
+    background-size: 25vw;
+}
+
+.themed-font {
+  color: #326056;
+}
+
+.button {
+  background-color: #2ca089;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.clickable {
+  background-color:#2ca089;
+  margin: 3px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  width: 300px;
+}

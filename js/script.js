@@ -12,23 +12,23 @@ function myFunction() {
 }
 
 function mouseOver(phrase) {
-  if (phrase.innerText=="Stephanie Chan") {
+  if (phrase.innerText=="einajade-forest") {
     phrase.innerText ="About";
-    phrase.href ="about2.html";
+    phrase.href ="about.html";
   }
   if (phrase.innerText=="Novice Developer") {
     phrase.innerText ="Projects";
-    phrase.href ="projects2.html";
+    phrase.href ="projects.html";
   }
   if (phrase.innerText=="Seeking Opportunities") {
     phrase.innerText ="Contact";
-    phrase.href ="contact2.html";
+    phrase.href ="contact.html";
   }
 }
 
 function mouseOut(phrase) {
   if (phrase.innerText=="About") {
-    phrase.innerText ="Stephanie Chan";
+    phrase.innerText ="einajade-forest";
     phrase.href ="#";
   }
   if (phrase.innerText=="Projects") {

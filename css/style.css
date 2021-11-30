@@ -42,13 +42,16 @@ a {
   color: white;
 }
 
+.subPages {
+    background-color: #b9e5d5;
+}
+
 .main {
   margin-top: 48px;
   width: 100%;
   display: block;
   position: fixed;
   height: auto;
-  background-color: #b9e5d5;
 }
 
 .sticky {

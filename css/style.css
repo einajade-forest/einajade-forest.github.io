@@ -91,9 +91,7 @@ a {
   
   .centered {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 30px;
     text-align: center;
     width: 100%;
   }
@@ -101,7 +99,7 @@ a {
 .forest {
   background-image: url("../images/bgrd_forest_green.png");
   background-repeat: repeat-y;
-  background-size: 25vw;
+  background-size: 30vmin;
 }
 
 .themed-font {

@@ -18,7 +18,7 @@ function mouseOver(phrase) {
   }
   if (phrase.innerText=="Novice Developer") {
     phrase.innerText ="Projects";
-    phrase.href ="project.html";
+    phrase.href ="projects.html";
   }
 }
 
